@@ -1,0 +1,334 @@
+ /* CSS styles for navigation and footer */
+ 
+ body {
+    margin-left: 10%;
+    margin-right: 10%;
+ } 
+
+ nav {
+     background-color: #9CAE81;
+     padding: 4px;
+     height: fit-content;
+
+ }
+
+ footer {
+     background-color: #9CAE81;
+     padding: 10px;
+ }
+
+ /* CSS styles for navigation and footer ends here */
+
+ /* CSS styles for logo, nav and donate button */
+ .logo {
+  
+     margin-top: 1%;
+     margin-left: 3%;
+   
+ }
+ .navContainer
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items:center;
+     
+ }
+
+ .nav {
+ 
+     margin-left: 20px;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .nav li {
+     float: left;
+ }
+
+ .nav li a {
+     display: block;
+     color:white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .nav li a:hover {
+     background-color: #729CA8;
+     color: #fff;
+ }
+
+ .donate {
+     margin-right: 3%;
+ }
+
+ .donate button {
+     background-color:white;
+     border: none;
+     color: #729CA8;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+ .donate button:hover{
+     background-color: #729CA8;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ /* CSS styles for logo, nav and donate button ends here */
+
+ /* CSS styles for hero image */
+
+ .hearo-main {
+     margin-top: 2%;
+     margin-left: 5%;
+     margin-right: 5%;
+     height: 400px;
+     margin-bottom: 80px;
+     background-image: linear-gradient(rgba(156, 174, 129, 0.7), rgba(156, 174, 129, 0.9)), url(images/jpeg-optimizer_Heropng.png);
+
+   
+     background-size: cover;
+     
+    
+   
+ }
+ .hearo-main img {
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     background-color: #9CAE81;
+   
+ }
+
+ /* CSS styles for hero image ends here */
+
+ /* CSS styles for events section */
+
+ .events-main {
+     margin-left: 5%;
+     margin-right: 5%;
+     height: 120px;   
+     padding: 20px;
+     margin-bottom: 15px;
+     
+ }
+ .eventsTitle h3 {
+  
+     color: #729CA8;
+     margin-left: 7% ;
+     font-size: large;
+
+ }
+
+ .imageEvent {
+     width: 250px;
+     height: 100%;
+     background-image: url(images/andrew-ruiz-348421.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .imageEvent img {
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     background-color: #9CAE81;
+     margin-right: 2%;
+   
+ }
+ .evenethodler{
+     border: 2px solid #729CA8;
+     display: flex;
+   
+ }
+ .eventInfo{
+    margin-left: 4%;
+    margin-bottom: 0%;
+    color: #729CA8;
+
+ }
+ .eventInfo h4{
+     color: #729CA8;
+ }
+
+ 
+ .availabilty{
+     display: flex;
+     margin-left: 20%;
+     color: #729CA8;
+     border-left: 2px solid;
+     border-image: linear-gradient(to bottom, transparent 10%, #729CA8 10%,#729CA8 90%, transparent 90%) 1;
+
+
+ }
+
+     
+ 
+ .availabiltyDate{
+     margin-left: 15%;
+     width: 100px;
+ }
+ .availabiltyTime{
+     margin-left: 15%;
+
+ }
+ .availabiltyDate p:nth-child(3){
+     font-weight: bold;
+ }
+ .joinbtn{
+     margin-left: 20%;
+     height: 100%;
+     background-color:#9CAE81 ;
+     color: white;
+     border: none;
+     padding: 56px 56px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+ .joinbtn:hover{
+     background-color: #729CA8;
+     color: #fff;
+     cursor: pointer;
+ }
+ .HomePDonate{
+     height: 100px;
+     margin-bottom: 80px;
+     background-color: #729CA8;
+     display: flex;
+     margin-top: 3%;
+     margin-top:6% ;
+ }
+ .HomePDonate p{
+     color: white;
+     margin-left: 30%;
+     font-size: x-large;
+    
+     
+ }
+
+ .HomePDonate button{
+     margin-left: 5%;
+     margin-top: 2%;
+     height: 50%;
+     background-color: white;
+     border: none;
+     color: #729CA8;
+     padding: 5px 25px;
+     height: 35px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+
+ }
+ .HomePDonate button:hover{
+     background-color: #9CAE81;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ footer {
+     background-color: #9CAE81;
+     padding: 10px;
+     height: 160px;
+  
+ }
+
+ .footerUp{
+     display: flex;
+     justify-content: space-between;
+     align-items:center;
+     border-bottom: 2px solid white;
+  
+ }
+
+ .footerLogo {
+     margin-left: 5%;
+ }
+
+ .NavFooter {
+     margin-right: 5%;
+   
+ }
+ .NavFooter ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     font-size: larger;
+  
+  
+ }
+
+ .NavFooter li {
+    margin-bottom: 10px;
+  
+ }
+
+ .NavFooter li a {
+     color: white;
+  
+  
+ }
+
+ .NavFooter li a:hover {
+     color: #729CA8;
+ }
+
+ .LegalPol {
+   color: white;
+        
+   
+ }
+
+ .LegalPol h4 {
+     font-size: large;
+     margin-top: 4%;
+ }
+
+ .LegalPol p {
+     font-weight:100;
+ }
+
+
+
+ .contact {
+     color: white;
+     margin-left: 15%;
+     margin-right: 12%;
+     
+ }
+
+ .contact a {
+     color: white;
+     font-size: x-large;
+     
+ }
+
+
+ .footerDown {
+     color: white;
+     margin-left: 35%;
+     align-items: center;
+ }
+ .footerDown p {
+     font-size: large;
+     margin-top: 4%;
+ }
+
+ /* CSS styles for footer ends here */
+ 
+

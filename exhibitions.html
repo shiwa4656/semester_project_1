@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your meta description goes here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" a href="styles.css">
+    <title>My Website</title>
+    <style>
+       
+        .mainExhi{
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+           
+           
+           
+        }
+        .specialeve{
+            font-size: 3rem;
+            font-weight: 700;
+            color: #333;
+            margin-top: 5rem;
+            color:#9CAE81;
+            text-decoration: underline;
+        }
+        .professorpic{       
+            height: 500px;
+            width: 400px;
+            overflow: hidden;
+        }
+        .eventsvisito{
+            display: flex;
+            height: 600px;
+            margin-top: 5%;
+            margin-bottom: 10%; 
+            border-bottom: 2px solid #729CA8;
+        }
+        .professorpic img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .eventsinfoEx{
+            margin-left: 2rem;
+            text-align: left;
+        }
+        .profetitle{
+            font-size: 2rem;
+            font-weight: 300;
+            color: #333;
+            margin-top: 1rem;
+            color:#9CAE81;
+          
+        }
+        .EveneinfOExP{
+           border-left: 4px solid #729CA8;
+        }
+        .eventsinfoexpBody{
+            margin-left: 4%;
+            font-size: 1.5rem;
+            font-weight: 300;
+            color:#729CA8;
+            margin-top: 5rem;
+         
+        }
+
+        .dateTime p{
+            font-size: large;
+            font-weight: 300;
+            color:#729CA8;
+           
+        }
+        #lasteventvisto{
+            border-bottom: none;
+        }
+        
+        #profeesorpicmiddle{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 500px;
+            width: 400px;
+            overflow: hidden;
+           
+        }
+
+
+      
+      
+        #mamothpic{
+           width: 85%;
+           height: 200px;
+           overflow: hidden;
+         
+         
+       
+        }
+        .readingkidpiandGirl{
+            display: flex;
+            margin-top:-40%;
+            background-color: aquamarine;
+        }
+        #researchGirlpic{
+           width: 60%;
+           height: 160px;
+           object-fit: cover;
+
+       
+        
+        
+        }
+
+        #readingkidpic{
+           height: 150px;
+           width: 70%;
+           margin-top: 30%;
+           object-fit: contain;
+        }
+
+
+     
+  
+       
+      
+
+
+        
+      
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav class="navContainer">
+    
+          <!-- create a 3 sections navbar, first one is logo, second section is nav elemetn, lastly its a button for Donate, align all of them in a row -->
+            <div class="logo">
+                <img src="images/Logo.png" alt="this is the logo image of the page">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="exhibitions.html">Exhibitions</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Policy</a></li>
+                </ul>
+            </div>
+            <div class="donate">
+                <button>Donate</button>
+            </div>
+                                                                                 
+   
+        </nav>
+    </header>
+    
+   <Main class="mainExhi">
+    <p class="specialeve">Special events and Exhibitions</p>
+    <div class="eventsvisito">
+        <div class="professorpic">
+            <img src="images/jpeg-optimizer_luke-ellis-craven-400722.png" alt="this is one of the events picture">
+        </div>
+        <div class="eventsinfoEx">
+            <p class="profetitle">Visiting professor of Aeronautics</p>
+            <div class="EveneinfOExP">
+                <p class="eventsinfoexpBody">It is our pleasure to announce that professor
+                    <br>Sheila Widnall from the Massachusetts Institute 
+                    <br>of Technology will be delivering 3 lectures
+                    <br> on the development of aeronautics and where
+                    <br>the future lies in this exciting ‘space’. 
+                  
+                </p>
+
+            </div>
+            <div class="dateTime">
+                <p>Date: <b>23.01.2023</b></p>
+                <p>Time: <b>17:30-20:30</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="eventsvisito">
+        <div id="profeesorpicmiddle" class="professorpic">
+            <img id="mamothpic" src="images/jpeg-optimizer_mammoth-1257288_1920.png" alt="this is one of the events picture">
+            <div class="readingkidpiandGirl">
+                <img id="researchGirlpic" src="images/jpeg-optimizer_billetto-editorial-334686.png" alt="this is one of the events picture">
+                <img id="readingkidpic" src="images/jpeg-optimizer_reading-2762010_1280.png" alt="this is one of the events picture">
+            </div>
+        </div>
+        <div class="eventsinfoEx">
+            <p class="profetitle">Night in the Museum </p>
+            <div class="EveneinfOExP">
+                <p class="eventsinfoexpBody">It is our pleasure to announce that professor
+                    <br>Sheila Widnall from the Massachusetts 
+                    <br> Institute of Technology 
+                    <br>will be delivering 3 lectures on the
+                    <br>development of aeronautics and where
+                    <br>the future lies in this exciting 
+                    <br>  ‘space’. 
+                  
+                </p>
+
+            </div>
+            <div class="dateTime">
+                <p>Date: <b>23.01.2023</b></p>
+                <p>Time: <b>17:30-20:30</b></p>
+            </div>
+        </div>
+    </div>
+    <div id="lasteventvisto" class="eventsvisito">
+        <div class="professorpic">
+            <img src="images/roberto-nickson-396152.jpg" alt="this is one of the events picture">
+        </div>
+        <div class="eventsinfoEx">
+            <p id="lastprofiletitle" class="profetitle">Energica Exhibition on Loan 
+                </p>
+            <div id="lastinfoExp" class="EveneinfOExP">
+                <p class="eventsinfoexpBody">
+                     On loan from the NEMO Science Museum in Amsterdam,
+                    <br> the Energetica exhibition is coming to 
+                    <br>the Community Science Museum. 
+                    <br>It’s a series of installations that allow visitors to experience 
+                    <br>the power of the elements as we harness them.
+                    <br>  From solar energy powering lighting, to 
+                    <br>‘Wind Island’ that shows how turbines are able to use and 
+                    <br> control wind to create power. 
+
+                </p>
+
+            </div>
+            <div class="dateTime">
+                <p>Date: <b>23.01.2023</b></p>
+                <p>Time: <b>17:30-20:30</b></p>
+            </div>
+        </div>
+    </div>
+   </Main>
+   <footer>
+    <div class="footerUp">
+        <div class="footerLogo">
+            <img src="images/Logo.png" alt="this is the logo image of the page">
+        </div>
+        <div class="NavFooter">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Exhibitions</a></li>
+                <li><a href="#">Contact</a></li>
+             
+            </ul>
+        </div>
+        <div class="LegalPol">
+            <h4>LEGAL</h4>
+            <p>Privacy policy</p>
+        </div>
+        <div class="contact">
+            <a href="#">Contact us</a>
+        </div>
+        
+    </div>
+    <div class="footerDown">
+        <p>© 2023 Forus science, Stavanger. All rights reserved</p>
+    </div>
+
+</footer>
+   
+    
+</body>
+</html>
