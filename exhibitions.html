@@ -83,6 +83,8 @@
             height: 500px;
             width: 400px;
             overflow: hidden;
+
+            position: relative;
            
         }
 
@@ -92,31 +94,33 @@
         #mamothpic{
            width: 85%;
            height: 200px;
-           overflow: hidden;
-         
-         
-       
+            
+           position: absolute;
+           top: 0;       
         }
-        .readingkidpiandGirl{
-            display: flex;
-            margin-top:-40%;
-            background-color: aquamarine;
-        }
+   
         #researchGirlpic{
            width: 60%;
            height: 160px;
            object-fit: cover;
 
-       
-        
+           position: absolute;
+           top: 36%;
+           left: 8%;
+           z-index: 20;
         
         }
 
         #readingkidpic{
            height: 150px;
            width: 70%;
-           margin-top: 30%;
            object-fit: contain;
+
+           position: absolute;
+           bottom: 0;
+           right: 0;
+           left: 50%;
+           bottom: 20%;
         }
 
 
@@ -182,10 +186,10 @@
     <div class="eventsvisito">
         <div id="profeesorpicmiddle" class="professorpic">
             <img id="mamothpic" src="images/jpeg-optimizer_mammoth-1257288_1920.png" alt="this is one of the events picture">
-            <div class="readingkidpiandGirl">
+           
                 <img id="researchGirlpic" src="images/jpeg-optimizer_billetto-editorial-334686.png" alt="this is one of the events picture">
                 <img id="readingkidpic" src="images/jpeg-optimizer_reading-2762010_1280.png" alt="this is one of the events picture">
-            </div>
+            
         </div>
         <div class="eventsinfoEx">
             <p class="profetitle">Night in the Museum </p>

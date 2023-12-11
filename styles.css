@@ -6,9 +6,10 @@
  } 
 
  nav {
-     background-color: #9CAE81;
+     background-color: #3f3d75;
      padding: 4px;
      height: fit-content;
+     font-size:x-large;
 
  }
 
@@ -62,8 +63,8 @@
  }
 
  .nav li a:hover {
-     background-color: #729CA8;
-     color: #fff;
+     background-color: #fff;
+     color:#3f3d75;
  }
 
  .donate {
@@ -73,7 +74,7 @@
  .donate button {
      background-color:white;
      border: none;
-     color: #729CA8;
+     color: #3f3d75;
      padding: 10px 20px;
      text-align: center;
      text-decoration: none;
