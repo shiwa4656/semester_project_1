@@ -1,8 +1,12 @@
  /* CSS styles for navigation and footer */
  
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
  body {
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Lato', sans-serif;
  } 
 
  nav {
@@ -14,7 +18,7 @@
  }
 
  footer {
-     background-color: #9CAE81;
+     background-color: #3f3d75;
      padding: 10px;
  }
 
@@ -97,20 +101,44 @@
      margin-right: 5%;
      height: 400px;
      margin-bottom: 80px;
-     background-image: linear-gradient(rgba(156, 174, 129, 0.7), rgba(156, 174, 129, 0.9)), url(images/jpeg-optimizer_Heropng.png);
-
-   
+     background-image: linear-gradient(rgba(63, 61, 117, 0.7), rgba(63, 61, 117, 0.9)), url(images/jpeg-optimizer_Heropng.png);
      background-size: cover;
+     position: relative;
+     
      
     
    
  }
+ .hearo-main p{
+    color: white;
+    font-size:70px;
+    box-sizing: border-box ;
+    border-style: none;
+    margin: 0%;
+
+  
+ }
+ .herotitle1 :nth-child(1){
+    font-weight: 200;
+ }
+ .herotitle1 :nth-child(2){
+    font-weight: 700;
+ }
+
  .hearo-main img {
      width: 100%;
      height: 100%;
      opacity: 0.3;
      background-color: #9CAE81;
    
+ }
+
+ .herotitle1{
+   position: absolute;
+   left: 60%;
+    top: 30%;
+    border-bottom: 2px solid #f7ff00;
+    padding-bottom: 20px;
  }
 
  /* CSS styles for hero image ends here */
@@ -125,73 +153,105 @@
      margin-bottom: 15px;
      
  }
+ .forusMuseminfo{
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color: #edf1fa;
+    height: 300px;
+    width: 100;
+    position: relative;
+    margin-bottom: 5%;
+
+ }
+ .TotalinfoPandtir{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 10%;
+ }
+    .forusMuseminfo h3{ 
+        color: #3f3d75;
+
+        font-size: large;
+    }
+ .forusMuseminfo p :nth-child(1){
+    font-weight: 100;
+}
+ .forusMuseminfo p {
+    font-weight:500;
+ }
+  
  .eventsTitle h3 {
   
-     color: #729CA8;
+     color: #3f3d75;
      margin-left: 7% ;
      font-size: large;
-
- }
-
- .imageEvent {
-     width: 250px;
-     height: 100%;
-     background-image: url(images/andrew-ruiz-348421.png);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
- }
- .imageEvent img {
-     width: 100%;
-     height: 100%;
-     opacity: 0.3;
-     background-color: #9CAE81;
-     margin-right: 2%;
+     border-bottom: #f7ff00 2px solid;
+     width: 10%;
    
+
  }
+
+
+
  .evenethodler{
+
      border: 2px solid #729CA8;
      display: flex;
+    
+    
+     
    
  }
  .eventInfo{
-    margin-left: 4%;
-    margin-bottom: 0%;
-    color: #729CA8;
+   width: 30%;
+    color: #3f3d75;
+    display: inline;
+    margin-left:  20px;
+   
+    flex: 3;
 
- }
- .eventInfo h4{
-     color: #729CA8;
- }
+    
+    
+}
+.eventInfo p{
+    color: #3f3d75;
+     font-size: 25px;
+     font-weight: 600;
+    }
+    
+    
+    .availabilty{
+        display: flex;
+        color: #3f3d75;
+        border-left: 2px solid;
+        border-image: linear-gradient(to bottom, transparent 10%, #729CA8 10%,#729CA8 90%, transparent 90%) 1;
+        
+        
+    margin-left: 50px;
+    }
 
- 
- .availabilty{
-     display: flex;
-     margin-left: 20%;
-     color: #729CA8;
-     border-left: 2px solid;
-     border-image: linear-gradient(to bottom, transparent 10%, #729CA8 10%,#729CA8 90%, transparent 90%) 1;
-
-
- }
-
-     
- 
- .availabiltyDate{
+    
+    
+    .availabiltyDate{
      margin-left: 15%;
      width: 100px;
+     
  }
  .availabiltyTime{
-     margin-left: 15%;
+    margin-left: 50px;
+    border-left: 2px solid #729CA8;
+    padding-left: 20px;
+    border-left: 2px solid;
+     border-image: linear-gradient(to bottom, transparent 10%, #729CA8 10%,#729CA8 90%, transparent 90%) 1;
+    
 
  }
- .availabiltyDate p:nth-child(3){
-     font-weight: bold;
- }
+ 
  .joinbtn{
-     margin-left: 20%;
+     margin-left: 24%;
      height: 100%;
-     background-color:#9CAE81 ;
+     background-color:#3f3d75 ;
      color: white;
      border: none;
      padding: 56px 56px;
@@ -243,7 +303,7 @@
  }
 
  footer {
-     background-color: #9CAE81;
+     background-color: #3f3d75;
      padding: 10px;
      height: 160px;
   
