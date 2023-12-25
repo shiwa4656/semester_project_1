@@ -7,6 +7,68 @@
     <link rel="stylesheet" a href="styles.css">
     <title>My Website</title>
     <style>
+
+        /*chat gPT */
+           /* Add your existing styles here */
+
+        /* Hamburger menu styles */
+        .menu-icon {
+            display: none;
+            cursor: pointer;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav li {
+            margin: 0 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: #333;
+                z-index: 1;
+            }
+
+            .nav ul.show {
+                display: flex;
+            }
+
+            .nav li {
+                width: 50%;
+                text-align: center;
+                margin: 10px 0;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+
+            .donate {
+                order: -1; /* Move "Get Involved" to the top in mobile view */
+            }
+        }
+
+
+
+
+
+
+        /*chat gPT */
         .getinvolve{
             background-color: #3f3d75;
             margin-left: 4%;
@@ -58,15 +120,23 @@
         
         
     </style>
-   
+   <script>
+     function toggleMenu() {
+        var menu = document.querySelector('.nav ul');
+        menu.classList.toggle('show');
+    }
+
+   </script>
    
 </head>
 <body>
     <header>
         <nav class="navContainer">
-    
             <div class="logo">
                 <img src="images/Logo.png" alt="this is the logo image of the page">
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
             </div>
             <div class="nav">
                 <ul>
@@ -78,12 +148,10 @@
             </div>
             <div class="donate">
                 <a href="getinvolved.html"><button>Get Involved</button></a>
-             
             </div>
-                                                                                 
-   
         </nav>
     </header>
+    
 
     <main class="main">
        <div class="hearo-main">
