@@ -225,7 +225,7 @@
  .events-main {
      margin-left: 5%;
      margin-right: 5%;
-     height: 120px;   
+     height: 140px;   
      padding: 20px;
      margin-bottom: 15px;
      
@@ -275,6 +275,7 @@
 
      border: 2px solid #729CA8;
      display: flex;
+     height: 100%;
     
     
      
@@ -310,8 +311,8 @@
     
     
     .availabiltyDate{
-     margin-left: 15%;
-     width: 100px;
+     margin-left: 12%;
+     width: 100%;
      
  }
  .availabiltyTime{
@@ -326,7 +327,7 @@
  
  .joinbtn{
      margin-left: 10%;
-     height: 153px;
+     height: 100%;
      background-color:#3f3d75 ;
      color: white;
      border: none;
