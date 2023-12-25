@@ -8,67 +8,6 @@
     <title>My Website</title>
     <style>
 
-        /*chat gPT */
-           /* Add your existing styles here */
-
-        /* Hamburger menu styles */
-        .menu-icon {
-            display: none;
-            cursor: pointer;
-        }
-
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .nav ul {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav li {
-            margin: 0 15px;
-        }
-
-        @media screen and (max-width: 768px) {
-            .nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 90px;
-                left: 60%;
-                width: 30%;
-                background-color: #333;
-                z-index: 1;
-            }
-
-            .nav ul.show {
-                display: flex;
-            }
-
-            .nav li {
-                width:100%;
-                text-align: center;
-                margin: 10px 0;
-            }
-
-            .menu-icon {
-                display: block;
-            }
-
-            .donate {
-                order: -1; /* Move "Get Involved" to the top in mobile view */
-            }
-        }
-
-
-
-
-
-
-        /*chat gPT */
         .getinvolve{
             background-color: #3f3d75;
             margin-left: 4%;
@@ -117,16 +56,80 @@
             
         }
 
+        @media screen and (max-width: 768px) {
+         .hero-main{
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            height: 150px;
+            margin-bottom: 80px;
+            background-image: linear-gradient(rgba(63, 61, 117, 0.7), rgba(63, 61, 117, 0.9)), url(images/jpeg-optimizer_Heropng.png);
+            background-size: cover;
+            position: relative;
+     
+         }
+         .herotitle1 p{
+            color: white;
+            font-size:30px;
+            box-sizing: border-box ;
+            border-style: none;
+            margin: 0%;
+         }
+         .forusMuseminfo{
+            margin-left: 5%;
+           margin-right: 10%;
+           background-color: #edf1fa;
+           height: 400px;
+           width: 100%;
+           position: relative;
+           margin-bottom: 5%;
+
+        }
+         .TotalinfoPandtir p{
+            font-size: 15px;
+         }
+        .eventsTitle h3 {
+            color: #3f3d75;
+            margin-left: 7% ;
+            font-size: medium;
+            border-bottom: #f7ff00 2px solid;
+            width: 25%;
+   
+
+        }
+        .events-main {
+          margin-left: 5%;
+          margin-right: 3%;
+          height: 133px;   
+          padding: 20px;
+          margin-bottom: 15px;
+          width: 100%;
+          margin-bottom: 20px;
+     
+        }
+        .eventInfo p{
+          color: #3f3d75;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .joinbtn{
+
+            height: 153px;
+        }
+
+
+        .getinvolve{
+            background-color: beige;
+        }
+      
+        
+
+        }
+
         
         
     </style>
-   <script>
-     function toggleMenu() {
-        var menu = document.querySelector('.nav ul');
-        menu.classList.toggle('show');
-    }
-
-   </script>
+ 
    
 </head>
 <body>
@@ -135,9 +138,8 @@
             <div class="logo">
                 <img src="images/Logo.png" alt="this is the logo image of the page">
             </div>
-            <div class="menu-icon" onclick="toggleMenu()">
-                &#9776; <!-- Hamburger icon -->
-            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-toggle-label">&#9776;</label>
             <div class="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -152,7 +154,6 @@
         </nav>
     </header>
     
-
     <main class="main">
        <div class="hearo-main">
         <div class="herotitle1" >
