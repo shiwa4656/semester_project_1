@@ -7,7 +7,7 @@
     <link rel="stylesheet" a href="styles.css">
     <title>Contacts</title>
     <style>
-        main{
+        .mainContact{
             background-color: #3f3d75;
             margin-left: 4%;
             margin-right: 4%;
@@ -100,6 +100,28 @@
                 font-size: larger;
                 margin-top: 5%;
             }
+            @media screen and (max-width: 768px) {
+                .mainContact{
+                    display: flex;
+                    flex-direction: column;
+                    height: 800px;
+                }
+                .ContactForm{
+                    order: 2;
+                    border: none;
+                }
+                .conatctinfo{
+                    order: 1;
+                    border: none;
+                }
+               form{
+                border-right: none;
+               }
+               .btnform{
+                margin-left: 26%;
+               }
+
+            }
             
          
     </style>
@@ -126,7 +148,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="mainContact">
         <div class="ContactForm">
            <h2>Get in touch</h2>
            <form>
