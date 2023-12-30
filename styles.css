@@ -168,6 +168,29 @@
             height: auto;
         }
     }
+    @media all and (max-width: 500px) {
+        #menu-toggle:checked + #menu-toggle-label + .nav ul {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            width: 30%;
+            background-color: #333;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+        #menu-toggle-label {
+           
+            cursor: pointer;
+            font-size: 40px;
+            color: white;
+            margin-left: 4%;
+        }
+    
+    
+       
+    }
 
 
     /*Header Hamburg menu*/
