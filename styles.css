@@ -550,15 +550,18 @@
         left: 2%;
         
     }
+    header{
+        top: 4%;
+    }
     .TotalinfoPandtir p{
         font-size: 13px;
      }
 
     .eventsTitle h3 {
-            color: #3f3d75;
-            margin-left: 7% ;
-            font-size: medium;
-            border-bottom:none;
+        color: #3f3d75;
+        margin-left: 7% ;
+        font-size: medium;
+        border-bottom:none;
         
     }
     .getinvole2{
