@@ -92,6 +92,7 @@
     .menu-icon {
         display: none;
         cursor: pointer;
+      
     }
 
     .nav {
@@ -119,7 +120,8 @@
     #menu-toggle-label {
         display: none;
         cursor: pointer;
-        font-size: 24px;
+        font-size: 40px;
+        color: white;
     }
 
     #menu-toggle:checked + #menu-toggle-label + .nav ul {
@@ -175,7 +177,7 @@
             position: absolute;
             top: 60px;
             left: 50%;
-            width: 30%;
+            width: 32%;
             background-color: #333;
             z-index: 1;
             transition: all 0.3s ease;
