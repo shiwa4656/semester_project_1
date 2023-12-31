@@ -301,6 +301,7 @@
      border: 2px solid #729CA8;
      display: flex;
      height: 100%;
+     width: 100;
     
     
      
@@ -403,6 +404,194 @@
      color: #fff;
      cursor: pointer;
  }
+ .getinvolve{
+    background-color: #3f3d75;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 100px;
+    margin-top: 5%;
+    border-radius: 7px;
+    display: flex;
+    margin-bottom: 12%;
+    
+}
+
+.getinvolve p{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 10px;
+    margin-right: 20px ;
+   
+}
+
+.joinbtn2{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #f7ff00;
+    background-color: #3f3d75;
+    color:#f7ff00;
+    font-weight: lighter;
+    margin-top: 6%;
+    text-align: center;
+    align-content: center;
+
+  
+}
+
+.joinbtn2:hover{
+    background-color: #f7ff00;
+    color: #3f3d75;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.getinvole2{
+    display: flex;
+    margin-left: 38%;
+   
+    
+}
+@media screen and (max-width: 768px) {
+    .hero-main{
+       margin-top: 2%;
+       margin-left: 5%;
+       margin-right: 5%;
+       height: 150px;
+       margin-bottom: 80px;
+       background-image: linear-gradient(rgba(63, 61, 117, 0.7), rgba(63, 61, 117, 0.9)), url(images/jpeg-optimizer_Heropng.png);
+       background-size: cover;
+       position: relative;
+
+    }
+    .herotitle1 p{
+       color: white;
+       font-size:30px;
+       box-sizing: border-box ;
+       border-style: none;
+       margin: 0%;
+    }
+    .forusMuseminfo{
+       margin-left: 5%;
+      margin-right: 10%;
+      background-color: #edf1fa;
+      height: 400px;
+      width: 100%;
+      position: relative;
+      margin-bottom: 5%;
+
+   }
+    .TotalinfoPandtir p{
+       font-size: 15px;
+    }
+   .eventsTitle h3 {
+       color: #3f3d75;
+       margin-left: 7% ;
+       font-size: medium;
+       border-bottom: #f7ff00 2px solid;
+       width: 25%;
+
+
+   }
+   .events-main {
+     height: 133px;   
+     padding: 20px;
+     margin-bottom: 15px;
+     width: 100%;
+     margin-bottom: 20px;
+
+   }
+   .eventInfo p{
+     color: #3f3d75;
+     font-size: 16px;
+     font-weight: 600;
+   }
+ 
+
+
+ 
+   .getinvolve p{
+       color: white;
+       font-size: 20px;
+       font-weight: 200;
+       margin-left: 1%;
+       margin-right:1% ;
+      
+   }
+   .getinvole2{
+       display: flex;
+       margin-left: 6%;
+      
+       
+   }
+   
+   .joinbtn2{
+       width: 120px;
+       height: 30px;
+       border: 1px solid #f7ff00;
+       background-color: #3f3d75;
+       color:#f7ff00;
+       font-weight: lighter;
+       margin-top: 6%;
+       text-align: center;
+       align-content: center;
+  
+     
+   }
+ 
+   
+
+   }
+   @media screen and (max-width: 500px) {
+    body{
+        margin: 0;
+        top: 2%;
+        left: 2%;
+        
+    }
+    .TotalinfoPandtir p{
+        font-size: 13px;
+     }
+
+    .eventsTitle h3 {
+            color: #3f3d75;
+            margin-left: 7% ;
+            font-size: medium;
+            border-bottom:none;
+        
+    }
+    .getinvole2{
+    display: flex;
+    margin-left: 2%;
+   
+    
+   }
+   .evenethodler{
+    margin-left: 2%;
+    
+}
+.joinbtn{
+    margin-left: 10%;
+    margin-right: 5%;
+     height: 100%;
+     background-color:#3f3d75 ;
+     font-size: 14px;
+     width: 100%;
+}
+.events-main{
+    margin-left: 2%;
+   
+}
+ .evenethodler{
+    margin-left: 1%;
+    margin-right: 5%;
+ 
+ }
+
+
+}        
+
+
+
 
  footer {
      background-color: #3f3d75;
@@ -491,7 +680,462 @@
      font-size: large;
      margin-top: 4%;
  }
+   /*Foter Media query mobile */
+   @media screen and (max-width: 768px) {
+    .footer{
+        background-color: #4d4d56;
+        height: 300px;
+    }
+    .footerUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        margin-bottom: 0%;
+        border-bottom: 0px;
+     
+    }
+    .LegalPol{
+        margin-left: 3%;
+    }
+    .NavFooter{
+        margin-right: 0%;
+        margin-left: 2%;
+    }
+    .footerLogo{
+        margin-bottom: 1%;
+        margin-left: 10%;
+    }
+
+   .footerDown{
+       margin-top: 0%;
+       color: white;
+       font-size: 8px;
+       font-weight: 150;
+       text-align: center;
+       margin-top: 0%;
+       margin-left: 5%;
+   }
+   
+ 
+}
+@media screen and (max-width: 500px) {
+   
+    .footer{
+        background-color: #4d4d56;
+        height: 390px;
+        width: 100%;
+        
+    }
+    .footerUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        margin-bottom: 0%;
+        border-bottom: 0px;
+        width: 100%;
+        left: 5%;
+     
+    }
+    .LegalPol{
+        margin-left: 2%;
+    }
+    .NavFooter{
+        margin-right: 0%;
+        margin-left: 2%;
+    }
+    .footerLogo{
+        margin-bottom: 1%;
+        margin-left: 23%;
+    }
+
+   .footerDown{
+       margin-top: 0%;
+       color: white;
+       font-size: 8px;
+       font-weight: 150;
+       text-align: center;
+       margin-top: 0%;
+       margin-left: 5%;
+   }
+   .LegalPol{
+    margin-right: 0%;
+    margin-left: 1%;
+   }
+   .contact{
+    margin-right: 20%;
+   }
+}
+
 
  /* CSS styles for footer ends here */
  
 
+ /*policy style ends here */
+ .privacyTermsCond h3{
+    color: #3f3d75;
+}
+
+.privacyTermsCond{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.privacyTermsCond h4 >*{
+    margin-top: 0;
+}
+.privacyTermsCond h4{
+    color: #1a2950;
+}
+.useOfwebsite li {
+    margin-top: 0;
+    margin-left: 5%;
+}
+.useOfwebsite li p{
+    margin-top: 0;
+    margin-left: 5%;
+}
+.useOfwebsite{
+    display: inline;
+
+}
+
+  /*policy style ends here */
+
+    /*getinvolved style starts here */
+    .getinvolvedMain {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .getinvolvedMain h3{
+        color: #3f3d75;
+    
+    }
+    .getinvolvedMain h4{
+        color: #1a2950;
+    }
+   
+    
+
+    
+    /*getinvolved style ends here */
+
+        
+    /*Exhibition style starts here */
+    .mainExhi{
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+       
+       
+       
+    }
+    .specialeve{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #333;
+        margin-top: 5rem;
+        color: #3f3d75;
+        text-decoration: underline;
+    }
+    .professorpic{       
+        height: 500px;
+        width: 400px;
+        overflow: hidden;
+    }
+    .eventsvisito{
+        display: flex;
+        height: 600px;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+        border-bottom: 2px solid #729CA8;
+    }
+    .professorpic img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .eventsinfoEx{
+        margin-left: 2rem;
+        text-align: left;
+    }
+    .profetitle{
+        font-size: 2rem;
+        font-weight: 800;
+        color: #333;
+        margin-top: 1rem;
+        color: #3f3d75;
+      
+    }
+    .EveneinfOExP{
+       border-left: 4px solid  #f7ff00;
+    }
+    .eventsinfoexpBody{
+        margin-left: 4%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 5rem;
+     
+    }
+
+    .dateTime p{
+        font-size: large;
+        font-weight: 300;
+    
+       
+    }
+    #lasteventvisto{
+        border-bottom: none;
+    }
+    
+    #profeesorpicmiddle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        width: 400px;
+        overflow: hidden;
+
+        position: relative;
+       
+    }
+
+
+  
+  
+    #mamothpic{
+       width: 85%;
+       height: 200px;
+        
+       position: absolute;
+       top: 0;       
+    }
+
+    #researchGirlpic{
+       width: 60%;
+       height: 160px;
+       object-fit: cover;
+
+       position: absolute;
+       top: 36%;
+       left: 8%;
+       z-index: 20;
+    
+    }
+
+    #readingkidpic{
+       height: 150px;
+       width: 70%;
+       object-fit: contain;
+
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       left: 50%;
+       bottom: 20%;
+    }
+    @media screen and (max-width: 768px) {
+
+        .eventsvisito{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin-bottom: 5%;
+        }
+        .professorpic{
+            height:100%;
+           width: 100%;
+           overflow: none;
+            order: 2;
+
+
+        }
+        .professorpic img{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0px;
+        order: 2;
+        margin-bottom: 0;
+    }
+    .profetitle{
+        order:1;
+    }
+    }
+    @media screen and (max-width: 500px) {
+        .specialeve{
+            font-size: 2rem;
+            font-weight: 600;
+           color: #333;
+           margin-top: 5rem;
+          color: #3f3d75;
+          text-decoration: underline;
+
+        }
+        .eventsinfoexpBody{
+         font-size: 1.5rem;
+         font-weight: 300;
+         margin-top: 5rem;
+         
+     
+    }
+    .eventsinfoexpBody br {
+        display: none;
+       
+         
+     
+    }
+    .EveneinfOExP{
+       border-left:none;
+       text-align: none;
+    
+    }
+    .profetitle{
+        font-size: 2rem;
+        font-weight: 530;
+        color: #333;
+        margin-top: 1rem;
+        color: #3f3d75;
+    }
+}
+
+    
+    /*Exhibition style ends here */  
+    
+  
+    /*contact style starts here */ 
+    .mainContact{
+        background-color: #3f3d75;
+        margin-left: 4%;
+        margin-right: 4%;
+        height: 550px;
+        margin-top: 5%;
+        border-radius: 7px;
+        display: flex;
+        margin-bottom: 12%;
+        padding-top: 5%;
+
+    }
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 50px;
+    width: 100%;
+
+    border-right: 2px solid #f7ff00;
+    padding-right: 7px;
+   }
+
+
+   .ContactForm{
+    margin-left: 4%;
+    width: 50%;
+   }
+   .ContactForm h2{
+     color: white;
+   }
+   .btnform{
+          width: 60%;
+         
+          border-radius: 50px;
+          border: 2px solid #f7ff00;
+          background-color: #3f3d75;
+          color:#fff;
+          font-weight: bold;
+          margin-top: 10px;
+          padding: 8px;
+          text-align: center;
+          align-content: center;
+   }
+     .btnform:hover{
+              background-color: #f7ff00;
+              color: #3f3d75;
+              transition: 0.5s;
+              cursor: pointer;
+     }
+    
+     input{
+          width: 300px;
+          border-radius: 5px;
+          border: none;
+          margin-bottom: 10px;
+          padding: 12px;
+     }
+
+        textarea{
+            width: 300px;
+          
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 10px;
+            padding: 12px;
+        }
+
+        .conatctinfo{
+            width: 50%;
+            margin-left: 4%;
+            margin-right: 4%;
+            color: white;
+            
+
+            
+        }
+
+        .conatctinfo >*{
+            margin: 0;
+            
+        }
+
+
+        .conatctinfo h2{
+            color: #f7ff00;
+            margin-top: 5%;
+        }
+        .conatctinfo h6{
+            color: #fff ;
+            font-size: larger;
+            margin-top: 5%;
+        }
+        @media screen and (max-width: 768px) {
+            .mainContact{
+                display: flex;
+                flex-direction: column;
+                height: 1000px;
+            }
+            .ContactForm{
+                order: 2;
+                border: none;
+            }
+            .conatctinfo{
+                order: 1;
+                border: none;
+            }
+           form{
+            border-right: none;
+           }
+           .btnform{
+            margin-left: 26%;
+           }
+
+        }
+        @media screen and (max-width: 500px) {
+            .mainContact{
+                display: flex;
+                flex-direction: column;
+                height: 1200px;
+            }
+            textarea{
+            width: 100%;
+          
+          
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+        }
+    } 
+
+
+      /*contact style ends here */  
