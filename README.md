@@ -31,14 +31,15 @@ The website also facilitates communication with the museum by providing opening 
 ## Getting Started
 
 Follow these steps to clone and run the project locally.
-
 ### Clone the Repository
 
-```bash
+
 git clone https://github.com/shiwa4656/semester_project_1.git
 
 
+###  Running
+Go to index.html page, then run the code through live server or other appropriate way.
 
+### Project live, check the porject here on live
 
-
-# Website link = https://shiwa4656.github.io/semester_project_1/getinvolved.html
+link = https://shiwa4656.github.io/semester_project_1/
