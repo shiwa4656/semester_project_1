@@ -2,8 +2,7 @@
 
 # Forus Museum
 
-![image](https://github.com/shiwa4656/semester_project_1/assets/87342392/02f87177-2ad7-406a-b6cc-a2fbefbcd9a2)
-
+ <img src="![FrousMuseum3](https://github.com/shiwa4656/semester_project_1/assets/87342392/0b3060c0-4859-47dc-8f47-287f91a43aa6)" width="100" height="100">
 
 
 
